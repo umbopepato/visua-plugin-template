@@ -1,0 +1,17 @@
+{
+  "name": "visua-plugin-template",
+  "version": "1.0.0",
+  "description": "Starter template for visua plugins",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "build:docs": "npx typedoc-markdown"
+  },
+  "peerDependencies": {
+    "@visuajs/visua": "^0.5.0",
+    "typescript": "^3.1.6"
+  },
+  "repository": "https://github.com/umbopepato/visua-plugin-template.git",
+  "author": "Umberto Pepato",
+  "license": "ISC"
+}
