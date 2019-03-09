@@ -17,7 +17,7 @@
     "visua": "^0.5.0"
   },
   "peerDependencies": {
-    "visua": "^0.5.0",
+    "visua": "^0.5.0"
   },
   "repository": "https://github.com/umbopepato/visua-plugin-template.git",
   "author": "Umberto Pepato",
