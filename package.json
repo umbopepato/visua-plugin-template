@@ -19,6 +19,9 @@
   "peerDependencies": {
     "visua": "^0.5.0"
   },
+  "files": [
+    "**/*.js"
+  ],
   "repository": "https://github.com/umbopepato/visua-plugin-template.git",
   "author": "Umberto Pepato",
   "license": "ISC"
