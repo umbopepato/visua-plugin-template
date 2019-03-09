@@ -9,10 +9,10 @@ export default class extends Plugin {
         return {};
     }
 
-    run(styleMap: StyleMap, options: {[key: string]: any}) {
+    run(styleMap: StyleMap, options: OptionsMap) {
         // This method is the entry point of your plugin
         // called by the CLI `run` command.
-        // Use visua's StyleMap API to get variables (https://visua.io/reference/stylemap).
+        // Use visua's StyleMap API to get variables (https://visua.io/reference/_cssom_style_map_/).
         // If your plugin exports assets and therefore needs to write files
         // see https://nodejs.org/docs/latest/api/fs.html for guidance on the Node.js FileSystem API
     }
