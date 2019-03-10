@@ -8,8 +8,14 @@ See [visua.io](https://visua.io) to get started with visua and visua plugins.
 
 ## Installation
 
-```
+```bash
 $ npm i {{pluginName}}
+```
+
+## Usage
+
+```bash
+$ visua run {{slug}}
 ```
 
 ## Variables
