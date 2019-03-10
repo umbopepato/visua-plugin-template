@@ -14,10 +14,10 @@
     "mocha": "^6.0.2",
     "ts-node": "^8.0.3",
     "typescript": "^3.3.3333",
-    "visua": "^0.6.0"
+    "visua": "^0.6.1"
   },
   "peerDependencies": {
-    "visua": "^0.6.0"
+    "visua": "^0.6.1"
   },
   "files": [
     "**/*.js"
