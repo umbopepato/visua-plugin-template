@@ -4,11 +4,11 @@ import MyPlugin from '../index';
 describe('run()', () => {
     let styleMap;
 
-    before(async () => {
+    before(() => {
 
         // To test your plugin add sample variables to identity.css
         // then before running other tests load it with the Visua API:
-        styleMap = await visua({
+        styleMap = visua({
 
             // The test script is run from the main folder so
             // this tells Visua to look for the identity file
