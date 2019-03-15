@@ -14,15 +14,19 @@
     "mocha": "^6.0.2",
     "ts-node": "^8.0.3",
     "typescript": "^3.3.3333",
-    "visua": "^0.6.5"
+    "visua": "^0.7.0"
   },
   "peerDependencies": {
-    "visua": "^0.6.5"
+    "visua": "^0.7.0"
   },
   "files": [
     "**/*.js"
   ],
   "repository": "https://github.com/umbopepato/visua-plugin-template.git",
   "author": "Umberto Pepato",
+  "keywords": [
+    "visua",
+    "visua-plugin"
+  ],
   "license": "ISC"
 }
