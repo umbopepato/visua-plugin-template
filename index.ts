@@ -1,4 +1,4 @@
-import {StyleMap, Plugin, OptionsMap} from 'visua';
+import {StyleMap, Plugin, OptionsMap, Options} from 'visua';
 
 export default class extends Plugin {
 
@@ -8,7 +8,7 @@ export default class extends Plugin {
         // Remove this method override if your plugin doesn't need any option.
     };
 
-    run(styleMap: StyleMap, options: {[key: string]: any}) {
+    run(styleMap: StyleMap, options: Options) {
         // This method is the entry point of your plugin
         // called by the CLI `run` command.
         // Use visua's StyleMap API to get variables (https://visua.io/reference/_cssom_style_map_/).
