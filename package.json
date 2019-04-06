@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "build:w": "tsc -w",
     "test": "mocha -r ts-node/register test/**/*.spec.ts"
+  },
+  "dependencies": {
+    "visua": "^0.8.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
@@ -13,11 +17,10 @@
     "chai": "^4.2.0",
     "mocha": "^6.0.2",
     "ts-node": "^8.0.3",
-    "typescript": "^3.3.3333",
-    "visua": "^0.7.1"
+    "typescript": "^3.3.3333"
   },
   "peerDependencies": {
-    "visua": "^0.7.1"
+    "visua": "^0.8.0"
   },
   "files": [
     "**/*.js"
